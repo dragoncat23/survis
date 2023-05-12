@@ -1,0 +1,159 @@
+@misc{christiano2023deep,
+      title={Deep reinforcement learning from human preferences}, 
+      author={Paul Christiano and Jan Leike and Tom B. Brown and Miljan Martic and Shane Legg and Dario Amodei},
+      year={2017},
+      eprint={1706.03741},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+  keywords = {type:reward_learning, learning_from_preferences, continuous_state_space, deep_learning},
+}
+@inproceedings{DBLP:conf/aaai/ZiebartMBD08,
+  author       = {Brian D. Ziebart and
+                  Andrew L. Maas and
+                  J. Andrew Bagnell and
+                  Anind K. Dey},
+  editor       = {Dieter Fox and
+                  Carla P. Gomes},
+  title        = {Maximum Entropy Inverse Reinforcement Learning},
+  booktitle    = {Proceedings of the Twenty-Third {AAAI} Conference on Artificial Intelligence,
+                  {AAAI} 2008, Chicago, Illinois, USA, July 13-17, 2008},
+  pages        = {1433--1438},
+  publisher    = {{AAAI} Press},
+  year         = {2008},
+  url          = {http://www.aaai.org/Library/AAAI/2008/aaai08-227.php},
+  keywords = {type:reward_learning, tabular_setting, non_deep_learning},
+  timestamp    = {Wed, 10 Feb 2021 08:44:35 +0100},
+  biburl       = {https://dblp.org/rec/conf/aaai/ZiebartMBD08.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/WulfmeierOP15,
+  author       = {Markus Wulfmeier and
+                  Peter Ondruska and
+                  Ingmar Posner},
+  title        = {Maximum Entropy Deep Inverse Reinforcement Learning},
+  journal      = {CoRR},
+  volume       = {abs/1507.04888},
+  year         = {2015},
+  url          = {http://arxiv.org/abs/1507.04888},
+  eprinttype    = {arXiv},
+  keywords = {type:reward_learning, tabular_setting, deep_learning},
+  eprint       = {1507.04888},
+  timestamp    = {Mon, 13 Aug 2018 16:46:12 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/WulfmeierOP15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{pmlr-v48-finn16,
+  title = 	 {Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization},
+  author = 	 {Finn, Chelsea and Levine, Sergey and Abbeel, Pieter},
+  booktitle = 	 {Proceedings of The 33rd International Conference on Machine Learning},
+  pages = 	 {49--58},
+  year = 	 {2016},
+  editor = 	 {Balcan, Maria Florina and Weinberger, Kilian Q.},
+  volume = 	 {48},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {New York, New York, USA},
+  keywords = {type:reward_learning, continuous_state_space, deep_learning},
+  month = 	 {20--22 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v48/finn16.pdf},
+  url = 	 {https://proceedings.mlr.press/v48/finn16.html},
+  abstract = 	 {Reinforcement learning can acquire complex behaviors from high-level specifications. However, defining a cost function that can be optimized effectively and encodes the correct task is challenging in practice. We explore how inverse optimal control (IOC) can be used to learn behaviors from demonstrations, with applications to torque control of high-dimensional robotic systems. Our method addresses two key challenges in inverse optimal control: first, the need for informative features and effective regularization to impose structure on the cost, and second, the difficulty of learning the cost function under unknown dynamics for high-dimensional continuous systems. To address the former challenge, we present an algorithm capable of learning arbitrary nonlinear cost functions, such as neural networks, without meticulous feature engineering. To address the latter challenge, we formulate an efficient sample-based approximation for MaxEnt IOC. We evaluate our method on a series of simulated tasks and real-world robotic manipulation problems, demonstrating substantial improvement over prior methods both in terms of task complexity and sample efficiency.}
+}
+
+@inproceedings{NIPS2016_cc7e2b87,
+ author = {Ho, Jonathan and Ermon, Stefano},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Generative Adversarial Imitation Learning},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2016/file/cc7e2b878868cbae992d1fb743995d8f-Paper.pdf},
+ volume = {29},
+ year = {2016},
+  keywords = {type:direct_policy_learning, continuous_state_space, deep_learning},
+}
+
+@inproceedings{DBLP:conf/nips/ZhangCSS21,
+  author       = {Songyuan Zhang and
+                  Zhangjie Cao and
+                  Dorsa Sadigh and
+                  Yanan Sui},
+  editor       = {Marc'Aurelio Ranzato and
+                  Alina Beygelzimer and
+                  Yann N. Dauphin and
+                  Percy Liang and
+                  Jennifer Wortman Vaughan},
+  title        = {Confidence-Aware Imitation Learning from Demonstrations with Varying
+                  Optimality},
+  booktitle    = {Advances in Neural Information Processing Systems 34: Annual Conference
+                  on Neural Information Processing Systems 2021, NeurIPS 2021, December
+                  6-14, 2021, virtual},
+  pages        = {12340--12350},
+  year         = {2021},
+  keywords = {type:reward_learning, imperfect_demonstrations, continuous_state_space, deep_learning},
+  url          = {https://proceedings.neurips.cc/paper/2021/hash/670e8a43b246801ca1eaca97b3e19189-Abstract.html},
+  timestamp    = {Tue, 03 May 2022 16:20:47 +0200},
+  biburl       = {https://dblp.org/rec/conf/nips/ZhangCSS21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/corl/BrownGN19,
+  author       = {Daniel S. Brown and
+                  Wonjoon Goo and
+                  Scott Niekum},
+  editor       = {Leslie Pack Kaelbling and
+                  Danica Kragic and
+                  Komei Sugiura},
+  title        = {Better-than-Demonstrator Imitation Learning via Automatically-Ranked
+                  Demonstrations},
+  booktitle    = {3rd Annual Conference on Robot Learning, CoRL 2019, Osaka, Japan,
+                  October 30 - November 1, 2019, Proceedings},
+  series       = {Proceedings of Machine Learning Research},
+  volume       = {100},
+  pages        = {330--359},
+  publisher    = {{PMLR}},
+  year         = {2019},
+  url          = {http://proceedings.mlr.press/v100/brown20a.html},
+  keywords = {type:reward_learning, imperfect_demonstrations, continuous_state_space, deep_learning, learning_from_preferences},
+  timestamp    = {Mon, 25 May 2020 15:01:26 +0200},
+  biburl       = {https://dblp.org/rec/conf/corl/BrownGN19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{ross2011reduction,
+  title={A reduction of imitation learning and structured prediction to no-regret online learning},
+  author={Ross, St{\'e}phane and Gordon, Geoffrey and Bagnell, Drew},
+  booktitle={Proceedings of the fourteenth international conference on artificial intelligence and statistics},
+  pages={627--635},
+  year={2011},
+  organization={JMLR Workshop and Conference Proceedings}
+  keywords = {type:direct_policy_learning, continuous_state_space, non_deep_learning},
+}
+@misc{ouyang2022training,
+      title={Training language models to follow instructions with human feedback}, 
+      author={Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and John Schulman and Jacob Hilton and Fraser Kelton and Luke Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Christiano and Jan Leike and Ryan Lowe},
+      year={2022},
+      eprint={2203.02155},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+  keywords = {type:reward_learning, learning_from_preferences, continuous_state_space, deep_learning, applications},
+}
+
+@InProceedings{pmlr-v97-wu19a,
+  title = 	 {Imitation Learning from Imperfect Demonstration},
+  author =       {Wu, Yueh-Hua and Charoenphakdee, Nontawat and Bao, Han and Tangkaratt, Voot and Sugiyama, Masashi},
+  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  pages = 	 {6818--6827},
+  year = 	 {2019},
+  editor = 	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
+  volume = 	 {97},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {09--15 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v97/wu19a/wu19a.pdf},
+  url = 	 {https://proceedings.mlr.press/v97/wu19a.html},
+  abstract = 	 {Imitation learning (IL) aims to learn an optimal policy from demonstrations. However, such demonstrations are often imperfect since collecting optimal ones is costly. To effectively learn from imperfect demonstrations, we propose a novel approach that utilizes confidence scores, which describe the quality of demonstrations. More specifically, we propose two confidence-based IL methods, namely two-step importance weighting IL (2IWIL) and generative adversarial IL with imperfect demonstration and confidence (IC-GAIL). We show that confidence scores given only to a small portion of sub-optimal demonstrations significantly improve the performance of IL both theoretically and empirically.}
+  keywords = {type:reward_learning, imperfect_demonstrations, continuous_state_space, deep_learning},
+}
+
